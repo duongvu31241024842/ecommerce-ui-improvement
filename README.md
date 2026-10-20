@@ -21,6 +21,7 @@ Bài tập cải tiến giao diện thẻ sản phẩm ở trang danh mục củ
 
 ## 5. Cách chạy
 Mở file index.html bằng trình duyệt.
+Xem trực tiếp: https://duongvu31241024842.github.io/ecommerce-ui-improvement/
 
 ## 6. Cải tiến đã thực hiện
 **Vấn đề ban đầu:** thẻ sản phẩm trên website tham khảo chỉ có ảnh, tên và một mức giá, nên khách khó biết loại hạt, mức rang hay cách pha phù hợp nếu không đọc kỹ tên hoặc mở từng trang. Dòng khuyến mãi lặp lại ở mọi thẻ cũng làm thẻ rối.
