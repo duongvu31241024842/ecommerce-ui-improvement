@@ -8,13 +8,18 @@
 </head>
 <body>
 
-  <header class="page-header">
-    <h1>Cà phê nguyên chất</h1>
-    <p>Chọn cà phê theo loại hạt, mức rang và cách pha của bạn</p>
-  </header>
+<header class="page-header">
+  <nav class="nav-menu" aria-label="Menu chính">
+    <a href="#">Trang chủ</a>
+    <a href="#san-pham">Sản phẩm</a>
+    <a href="#">Giới thiệu</a>
+  </nav>
+  <h1>Cà phê nguyên chất</h1>
+  <p>Chọn cà phê theo loại hạt, mức rang và cách pha của bạn</p>
+</header>
 
   <main>
-    <section class="product-grid" aria-label="Danh sách sản phẩm">
+    <section class="product-grid" id="san-pham" aria-label="Danh sách sản phẩm">
 
       <!-- Sản phẩm 1 -->
       <article class="product-card">
@@ -30,9 +35,12 @@
             <li>Pha máy</li>
           </ul>
           <div class="product-footer">
-            <p class="price">220.000đ</p>
-            <button type="button" class="btn-buy">Thêm vào giỏ</button>
+           <p class="price">220.000đ</p>
+           <div class="product-actions">
+             <a class="btn-detail" href="#" aria-label="Xem chi tiết Arabica Cầu Đất 500g">Xem chi tiết</a>
+              <button type="button" class="btn-buy">Thêm vào giỏ</button>
           </div>
+        </div>
         </div>
       </article>
 
@@ -53,9 +61,12 @@
           <div class="product-footer">
             <p class="price">
               <span class="price-new">133.000đ</span>
-              <span class="price-old">157.000đ</span>
+              <del class="price-old">157.000đ</del>
             </p>
-            <button type="button" class="btn-buy">Thêm vào giỏ</button>
+            <div class="product-actions">
+              <a class="btn-detail" href="#" aria-label="Xem chi tiết Robusta Đắk Mil 500g">Xem chi tiết</a>
+              <button type="button" class="btn-buy">Thêm vào giỏ</button>
+            </div>
           </div>
         </div>
       </article>
@@ -75,7 +86,10 @@
           </ul>
           <div class="product-footer">
             <p class="price">191.000đ</p>
-            <button type="button" class="btn-buy">Thêm vào giỏ</button>
+            <div class="product-actions">
+              <a class="btn-detail" href="#" aria-label="Xem chi tiết Blend Gu Ý pha máy 500g">Xem chi tiết</a>
+              <button type="button" class="btn-buy">Thêm vào giỏ</button>
+            </div>
           </div>
         </div>
       </article>
@@ -95,7 +109,10 @@
           </ul>
           <div class="product-footer">
             <p class="price">121.000đ</p>
-            <button type="button" class="btn-buy">Thêm vào giỏ</button>
+            <div class="product-actions">
+              <a class="btn-detail" href="#" aria-label="Xem chi tiết Cà phê Cầu Đất 250g">Xem chi tiết</a>
+              <button type="button" class="btn-buy">Thêm vào giỏ</button>
+            </div>
           </div>
         </div>
       </article>
